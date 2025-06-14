@@ -1,3 +1,39 @@
+<p align="center">
+
+  <!-- Linguagem principal -->
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  </a>
+
+  <!-- Framework Backend -->
+  <a href="https://fastapi.tiangolo.com/">
+    <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  </a>
+
+  <!-- Vetorização -->
+  <a href="https://www.sbert.net/">
+    <img src="https://img.shields.io/badge/Sentence_Transformers-5C2D91?style=for-the-badge&logo=semantic-release&logoColor=white" alt="Sentence Transformers" />
+  </a>
+
+  <!-- FAISS -->
+  <a href="https://github.com/facebookresearch/faiss">
+    <img src="https://img.shields.io/badge/FAISS-005571?style=for-the-badge&logo=github&logoColor=white" alt="FAISS" />
+  </a>
+
+  <!-- Pandas -->
+  <a href="https://pandas.pydata.org/">
+    <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  </a>
+
+  <!-- Streamlit (opcional) -->
+  <a href="https://streamlit.io/">
+    <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+  </a>
+
+  <!-- License -->
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="MIT License" />
+
+</p>
 
 ![Gemini_Generated_Image_ap1iorap1iorap1ihhhh2222](https://github.com/user-attachments/assets/60be5a7d-71bf-45a1-8359-8213bcb218bb)
 
