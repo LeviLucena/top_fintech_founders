@@ -50,7 +50,7 @@ Uma API inteligente para destacar os 20 fundadores emergentes de fintechs com ba
 
 ## Desafios Técnicos
 ### 1. 📥 Coleta de Dados
-Fontes: Raspar LinkedIn (via APIs não oficiais ou serviços como PhantomBuster) e blogs especializados em fintech (ex: TechCrunch, Fintech Futures, Contxto, etc.).
+- Fontes: Raspar LinkedIn (via APIs não oficiais ou serviços como PhantomBuster) e blogs especializados em fintech (ex: TechCrunch, Fintech Futures, Contxto, etc.).
 
 ### Abordagem:
 - Criar um scraper com BeautifulSoup ou Playwright para blogs.
