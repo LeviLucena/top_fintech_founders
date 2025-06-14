@@ -42,20 +42,17 @@
 Uma API inteligente para destacar os 20 fundadores emergentes de fintechs com base em análise semântica e pontuação via IA. Ideal para rankings rápidos, dashboards e insights estratégicos.
 
 ## 📌 Funcionalidades
-
 - Rankeamento automático de fundadores com base em seus perfis e bios
 - Busca semântica usando embeddings (SentenceTransformer + FAISS)
 - Sistema de pontuação ajustável com base em palavras-chave e critérios técnicos
 - API leve com FastAPI, pronta para integração
 - Suporte a dashboards via Streamlit
 
----
 ## Desafios Técnicos
 ### 1. 📥 Coleta de Dados
 Fontes: Raspar LinkedIn (via APIs não oficiais ou serviços como PhantomBuster) e blogs especializados em fintech (ex: TechCrunch, Fintech Futures, Contxto, etc.).
 
 ### Abordagem:
-
 - Criar um scraper com BeautifulSoup ou Playwright para blogs.
 - Para LinkedIn, utilizar ferramentas como SerpAPI, PhantomBuster ou importar dados existentes.
 - Usar critérios como número de funcionários, fundação recente, rondas de investimento, palavras-chave (ex: open banking, DeFi).
@@ -74,7 +71,13 @@ Modelo: Criar um agente com LangChain + OpenAI.
 - Influência no setor (presença online, publicações).
 - Inovação (palavras-chave extraídas via NLP).
 - Crescimento (funcionários no LinkedIn + funding).
-- Ferramentas: LangChain, OpenAI, FAISS, Pandas, Scikit-learn para scoring simples.
+
+### 🛠️ Ferramentas Utilizadas
+- 🔹 **LangChain**  
+- 🔹 **OpenAI** (para embeddings e NLP)  
+- 🔹 **FAISS** (para indexação e busca)  
+- 🔹 **Pandas** (para manipulação de dados)  
+- 🔹 **Scikit-learn** (para scoring e análise)
 
 ### 4. 🧪 Validação
 - Verificar amostragem dos top 10-20 com um analista (ou parceiro) para confirmar relevância.
@@ -91,9 +94,6 @@ Modelo: Criar um agente com LangChain + OpenAI.
 - Raspagem: Playwright/PhantomBuster + BeautifulSoup.
 - IA: Embeddings + Indexação + Classificação Regrada.
 - Deploy: Container leve (Docker) rodando na Vercel/Render/HuggingFace Spaces.
-
-## Exemplo de uso
-
 
 ## 🔍 Endpoint principal: /top-founders
 Obtém a lista dos fundadores mais relevantes com base em uma busca semântica.
