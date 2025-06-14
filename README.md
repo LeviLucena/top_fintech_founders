@@ -104,7 +104,7 @@ Acesse a documentação interativa em:
 
 ---
 ### 🛠️ Ferramentas Utilizadas
-- 🖥️ Stack: Python, LangChain, Scikit-learn (para scoring e análise), Pandas (para manipulação de dados), Streamlit, FAISS (para indexação e busca), OpenAI, FastAPI.
+- 🖥️ Stack: Python, LangChain, Scikit-learn (para scoring e análise), Pandas (para manipulação de dados), Streamlit, FAISS, OpenAI, FastAPI.
 - 🌐 Raspagem: Playwright/PhantomBuster + BeautifulSoup.
 - 🤖 IA: Embeddings + Indexação + Classificação Regrada.
 - 🚀 Deploy: Container leve (Docker) rodando na Vercel/Render/HuggingFace Spaces.
