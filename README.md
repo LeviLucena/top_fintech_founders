@@ -73,11 +73,10 @@ Modelo: Criar um agente com LangChain + OpenAI.
 - Crescimento (funcionários no LinkedIn + funding).
 
 ### 🛠️ Ferramentas Utilizadas
-- 🔹 **LangChain**  
-- 🔹 **OpenAI** (para embeddings e NLP)  
-- 🔹 **FAISS** (para indexação e busca)  
-- 🔹 **Pandas** (para manipulação de dados)  
-- 🔹 **Scikit-learn** (para scoring e análise)
+- 🖥️ Stack: Python, LangChain, Scikit-learn (para scoring e análise), Pandas (para manipulação de dados), Streamlit, FAISS (para indexação e busca), OpenAI, FastAPI.
+- 🌐 Raspagem: Playwright/PhantomBuster + BeautifulSoup.
+- 🤖 IA: Embeddings + Indexação + Classificação Regrada.
+- 🚀 Deploy: Container leve (Docker) rodando na Vercel/Render/HuggingFace Spaces.
 
 ### 4. 🧪 Validação
 - Verificar amostragem dos top 10-20 com um analista (ou parceiro) para confirmar relevância.
@@ -90,10 +89,7 @@ Modelo: Criar um agente com LangChain + OpenAI.
 - Frontend opcional: um dashboard leve com Streamlit ou apenas uma página HTML com fetch().
 ---
 ### Resumo Técnico:
-- 🖥️ Stack: Python, LangChain, FAISS, OpenAI, FastAPI.
-- 🌐 Raspagem: Playwright/PhantomBuster + BeautifulSoup.
-- 🤖 IA: Embeddings + Indexação + Classificação Regrada.
-- 🚀 Deploy: Container leve (Docker) rodando na Vercel/Render/HuggingFace Spaces.
+
 ---
 ## 🔍 Endpoint principal: /top-founders
 Obtém a lista dos fundadores mais relevantes com base em uma busca semântica.
@@ -115,7 +111,7 @@ Acesse a documentação interativa em:
 
 ---
 
-## Estrutura do Projeto
+## 📁 Estrutura do Projeto
 ```bash
 top_fintech_founders/
 ├── app/
