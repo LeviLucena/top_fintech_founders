@@ -82,12 +82,6 @@ Modelo: Criar um agente com LangChain + OpenAI.
 - Retorno: JSON com nome, startup, score, razão do ranqueamento e link da fonte.
 - Frontend opcional: um dashboard leve com Streamlit ou apenas uma página HTML com fetch().
 
-### 🛠️ Ferramentas Utilizadas
-- 🖥️ Stack: Python, LangChain, Scikit-learn (para scoring e análise), Pandas (para manipulação de dados), Streamlit, FAISS (para indexação e busca), OpenAI, FastAPI.
-- 🌐 Raspagem: Playwright/PhantomBuster + BeautifulSoup.
-- 🤖 IA: Embeddings + Indexação + Classificação Regrada.
-- 🚀 Deploy: Container leve (Docker) rodando na Vercel/Render/HuggingFace Spaces.
-
 ---
 ## 🔍 Endpoint principal: /top-founders
 Obtém a lista dos fundadores mais relevantes com base em uma busca semântica.
@@ -145,6 +139,14 @@ top_fintech_founders/
 - **utils/cleaning.py**: *Funções de limpeza, normalização e enrich.*
 - **data/founders.csv**: *Pode conter os dados mockados ou raspados.*
 - **notebooks/**: *Espaço para prototipagem, validações com LangChain etc.*
+
+---
+
+### 🛠️ Ferramentas Utilizadas
+- 🖥️ Stack: Python, LangChain, Scikit-learn (para scoring e análise), Pandas (para manipulação de dados), Streamlit, FAISS (para indexação e busca), OpenAI, FastAPI.
+- 🌐 Raspagem: Playwright/PhantomBuster + BeautifulSoup.
+- 🤖 IA: Embeddings + Indexação + Classificação Regrada.
+- 🚀 Deploy: Container leve (Docker) rodando na Vercel/Render/HuggingFace Spaces.
 
 ---
 
