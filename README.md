@@ -72,12 +72,6 @@ Modelo: Criar um agente com LangChain + OpenAI.
 - Inovação (palavras-chave extraídas via NLP).
 - Crescimento (funcionários no LinkedIn + funding).
 
-### 🛠️ Ferramentas Utilizadas
-- 🖥️ Stack: Python, LangChain, Scikit-learn (para scoring e análise), Pandas (para manipulação de dados), Streamlit, FAISS (para indexação e busca), OpenAI, FastAPI.
-- 🌐 Raspagem: Playwright/PhantomBuster + BeautifulSoup.
-- 🤖 IA: Embeddings + Indexação + Classificação Regrada.
-- 🚀 Deploy: Container leve (Docker) rodando na Vercel/Render/HuggingFace Spaces.
-
 ### 4. 🧪 Validação
 - Verificar amostragem dos top 10-20 com um analista (ou parceiro) para confirmar relevância.
 - Comparar resultados do agente com uma abordagem manual simples (baseline).
@@ -87,6 +81,12 @@ Modelo: Criar um agente com LangChain + OpenAI.
 - Construir um endpoint FastAPI com rota /top-founders que aceita filtros (ex: país, nicho fintech).
 - Retorno: JSON com nome, startup, score, razão do ranqueamento e link da fonte.
 - Frontend opcional: um dashboard leve com Streamlit ou apenas uma página HTML com fetch().
+
+### 🛠️ Ferramentas Utilizadas
+- 🖥️ Stack: Python, LangChain, Scikit-learn (para scoring e análise), Pandas (para manipulação de dados), Streamlit, FAISS (para indexação e busca), OpenAI, FastAPI.
+- 🌐 Raspagem: Playwright/PhantomBuster + BeautifulSoup.
+- 🤖 IA: Embeddings + Indexação + Classificação Regrada.
+- 🚀 Deploy: Container leve (Docker) rodando na Vercel/Render/HuggingFace Spaces.
 
 ---
 ## 🔍 Endpoint principal: /top-founders
