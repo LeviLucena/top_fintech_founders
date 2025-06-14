@@ -88,13 +88,13 @@ Modelo: Criar um agente com LangChain + OpenAI.
 - Construir um endpoint FastAPI com rota /top-founders que aceita filtros (ex: país, nicho fintech).
 - Retorno: JSON com nome, startup, score, razão do ranqueamento e link da fonte.
 - Frontend opcional: um dashboard leve com Streamlit ou apenas uma página HTML com fetch().
-
+---
 ### Resumo Técnico:
-- Stack: Python, LangChain, FAISS, OpenAI, FastAPI.
-- Raspagem: Playwright/PhantomBuster + BeautifulSoup.
-- IA: Embeddings + Indexação + Classificação Regrada.
-- Deploy: Container leve (Docker) rodando na Vercel/Render/HuggingFace Spaces.
-
+- 🖥️ Stack: Python, LangChain, FAISS, OpenAI, FastAPI.
+- 🌐 Raspagem: Playwright/PhantomBuster + BeautifulSoup.
+- 🤖 IA: Embeddings + Indexação + Classificação Regrada.
+- 🚀 Deploy: Container leve (Docker) rodando na Vercel/Render/HuggingFace Spaces.
+---
 ## 🔍 Endpoint principal: /top-founders
 Obtém a lista dos fundadores mais relevantes com base em uma busca semântica.
 
@@ -112,7 +112,6 @@ Acesse a documentação interativa em:
 > 👉 http://127.0.0.1:8000/docs
 
 ![image](https://github.com/user-attachments/assets/97abb0be-ef9b-441b-9bf2-2a935e31f211)
-
 
 ---
 
