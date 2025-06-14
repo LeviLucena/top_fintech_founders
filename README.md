@@ -102,6 +102,11 @@ Acesse a documentação interativa em:
 ![image](https://github.com/user-attachments/assets/97abb0be-ef9b-441b-9bf2-2a935e31f211)
 
 ---
+### 🛠️ Ferramentas Utilizadas
+- 🖥️ Stack: Python, LangChain, Scikit-learn (para scoring e análise), Pandas (para manipulação de dados), Streamlit, FAISS (para indexação e busca), OpenAI, FastAPI.
+- 🌐 Raspagem: Playwright/PhantomBuster + BeautifulSoup.
+- 🤖 IA: Embeddings + Indexação + Classificação Regrada.
+- 🚀 Deploy: Container leve (Docker) rodando na Vercel/Render/HuggingFace Spaces.
 
 ## 📁 Estrutura do Projeto
 ```bash
@@ -139,14 +144,6 @@ top_fintech_founders/
 - **utils/cleaning.py**: *Funções de limpeza, normalização e enrich.*
 - **data/founders.csv**: *Pode conter os dados mockados ou raspados.*
 - **notebooks/**: *Espaço para prototipagem, validações com LangChain etc.*
-
----
-
-### 🛠️ Ferramentas Utilizadas
-- 🖥️ Stack: Python, LangChain, Scikit-learn (para scoring e análise), Pandas (para manipulação de dados), Streamlit, FAISS (para indexação e busca), OpenAI, FastAPI.
-- 🌐 Raspagem: Playwright/PhantomBuster + BeautifulSoup.
-- 🤖 IA: Embeddings + Indexação + Classificação Regrada.
-- 🚀 Deploy: Container leve (Docker) rodando na Vercel/Render/HuggingFace Spaces.
 
 ---
 
