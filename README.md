@@ -87,8 +87,6 @@ Modelo: Criar um agente com LangChain + OpenAI.
 - Construir um endpoint FastAPI com rota /top-founders que aceita filtros (ex: país, nicho fintech).
 - Retorno: JSON com nome, startup, score, razão do ranqueamento e link da fonte.
 - Frontend opcional: um dashboard leve com Streamlit ou apenas uma página HTML com fetch().
----
-### Resumo Técnico:
 
 ---
 ## 🔍 Endpoint principal: /top-founders
