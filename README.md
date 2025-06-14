@@ -235,3 +235,9 @@ df = pd.read_csv(url)
 ```
 
 > ⚠️ Essa URL exige seu API Key e Agent ID, que a própria plataforma te fornece.
+
+## 🤝 Contributions
+Feel free to contribute, suggest improvements, or report issues to help develop this project.
+
+## 📄 License
+This project is licensed under the MIT License — see [LICENSE](https://github.com/github/gitignore/blob/main/LICENSE) for details.
