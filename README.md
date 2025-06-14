@@ -48,7 +48,8 @@ Uma API inteligente para destacar os 20 fundadores emergentes de fintechs com ba
 - API leve com FastAPI, pronta para integração
 - Suporte a dashboards via Streamlit
 
-## Desafios Técnicos
+## Desafios Técnicos [Ver etapas ilustrada](https://github.com/user-attachments/assets/7cf058cb-cc23-4584-be18-33258a6fea80)
+
 ### 1. 📥 Coleta de Dados
 - Fontes: Raspar LinkedIn (via APIs não oficiais ou serviços como PhantomBuster) e blogs especializados em fintech (ex: TechCrunch, Fintech Futures, Contxto, etc.).
 
